@@ -1,4 +1,5 @@
 import React from 'react';
+import form from '../assets/form.png'
 
 const Projects = () => {
   const projects = [
@@ -7,7 +8,7 @@ const Projects = () => {
       title: 'Form-Validation',
       description: 'A responsive form validation system ensuring accurate user input using JavaScript.',
       technologies: ['Javascript', 'Bootstrap', 'CSS'],
-      image: 'src/assets/form.png',
+      image: {form},
       liveLink: 'https://form-validation-1.vercel.app/',
       codeLink: 'https://github.com/Gopiana/Form-validation.git'
     },
@@ -26,8 +27,8 @@ const Projects = () => {
       description: 'A personal portfolio showcasing skills and projects.',
       technologies: ['React', 'CSS','Bootstrap'],
       image: 'src/assets/Portfolio.PNG',
-      liveLink: 'https://your-portfolio.netlify.app/',
-      codeLink: 'https://github.com/Gopiana/portfolio'
+      liveLink: 'https://portfolio-sigma-red-98.vercel.app/',
+      codeLink: 'https://github.com/Gopiana/Portfolio.git'
     },
     {
       id: 4,
