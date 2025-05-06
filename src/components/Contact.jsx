@@ -6,22 +6,29 @@ const Contact = () => {
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         <div className="contact-content">
-          <form className="contact-form">
+          {/* Formspree Form */}
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/xgvkkpgv" // ⬅️ Replace with your Formspree endpoint
+            method="POST"
+          >
             <div className="form-group">
-              <input type="text" placeholder="Your Name" required />
+              <input type="text" name="name" placeholder="Your Name" required />
             </div>
             <div className="form-group">
-              <input type="email" placeholder="Your Email" required />
+              <input type="email" name="email" placeholder="Your Email" required />
             </div>
             <div className="form-group">
-              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
             </div>
             <button type="submit" className="btn">Send Message</button>
           </form>
+
+          {/* Contact Info */}
           <div className="contact-info">
-            <h3>Contact Information</h3><br/>
+            <h3>Contact Information</h3><br />
             <p><i className="fas fa-envelope"></i> gopikanand2012@gmail.com</p>
-            <p><i className="fas fa-phone"></i>+91 9489209714</p>
+            <p><i className="fas fa-phone"></i> +91 9489209714</p>
             <p><i className="fas fa-map-marker-alt"></i> Arumanai, KK</p>
             <div className="social-links">
               <a href="https://github.com/Gopiana"><i className="fab fa-github"></i></a>
