@@ -1,5 +1,9 @@
 import React from 'react';
 import form from '../assets/form.png'
+import weatherapp from '../assets/Weatherapp.png'
+import profile from '../assets/Portfolio.PNG'
+import ateamWebsite from '../assets/Ateam.PNG'
+import facebookLayout from '../assets/FacebookLayout.PNG'
 
 const Projects = () => {
   const projects = [
@@ -8,7 +12,7 @@ const Projects = () => {
       title: 'Form-Validation',
       description: 'A responsive form validation system ensuring accurate user input using JavaScript.',
       technologies: ['Javascript', 'Bootstrap', 'CSS'],
-      image: {form},
+      image: form,
       liveLink: 'https://form-validation-1.vercel.app/',
       codeLink: 'https://github.com/Gopiana/Form-validation.git'
     },
@@ -17,7 +21,7 @@ const Projects = () => {
       title: 'Weather-App',
       description: 'Real-time weather information with 5-day forecast for any location.',
       technologies: ['React', 'API Integration','CSS'],
-      image: 'src/assets/Weatherapp.png',
+      image: weatherapp,
       liveLink: 'https://weather-app-three-pi-16.vercel.app/',
       codeLink: 'https://github.com/Gopiana/weather-app.git'
     },
@@ -26,7 +30,7 @@ const Projects = () => {
       title: 'Portfolio',
       description: 'A personal portfolio showcasing skills and projects.',
       technologies: ['React', 'CSS','Bootstrap'],
-      image: 'src/assets/Portfolio.PNG',
+      image: profile,
       liveLink: 'https://portfolio-sigma-red-98.vercel.app/',
       codeLink: 'https://github.com/Gopiana/Portfolio.git'
     },
@@ -35,7 +39,7 @@ const Projects = () => {
       title: 'Ateam Website',
       description: 'Developed the Ateam website using Bootstrap to showcase company services, portfolio, and career opportunities with a responsive design.',
       technologies: ['BootStrap', 'CSS'],
-      image: 'src/assets/Ateam.PNG',
+      image: ateamWebsite,
       liveLink: 'https://ateam-website-c7eh.vercel.app/',
       codeLink: 'https://github.com/Gopiana/Ateam-website.git'
     },
@@ -44,7 +48,7 @@ const Projects = () => {
       title: 'Facebook-Layout',
       description: 'I built a static clone of the Facebook homepage using Bootstrap and CSS, focusing on responsive design.',
       technologies: ['Bootstrap', 'CSS'],
-      image: 'src/assets/FacebookLayout.PNG',
+      image: facebookLayout,
       liveLink: 'https://facebook-layout-delta.vercel.app/',
       codeLink: 'https://github.com/Gopiana/Facebook-Layout.git'
     }
